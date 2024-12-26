@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+html,body {
+height: 100%;
+width: 100%;
+/* background-image: url(https://media.istockphoto.com/id/1636749701/photo/tranquil-urban-park-with-glass-meadows-and-footpath.jpg?s=2048x2048&w=is&k=20&c=Fm8oV0_f5TU1rwp-EpIoQqS3vkRoW3lIrp8_xd9EzSo=); */
+background: linear-gradient(to right bottom,rgb(179, 244, 241),rgb(236, 236, 161),rgb(245, 180, 245),rgb(218, 246, 255));
+}
