@@ -14,8 +14,11 @@ const RquestCard = () => {
             RequestButton.current.innerHTML = "Requesting...";
             setTimeout(() => {
               RequestButton.current.innerHTML = "Friends";
+              RequestButton.current.style.backgroundColor = "green";
             }, 2000);
           } else {
+            
+            RequestButton.current.style.backgroundColor = "#3B82F6";
             RequestButton.current.innerHTML = "Removing...";
             setTimeout(() => {
               RequestButton.current.innerHTML = "Send Request";
