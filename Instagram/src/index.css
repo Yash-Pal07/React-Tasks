@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+html,body {
+height: 100%;
+width: 100%;
+}
+.story-div{
+    background: linear-gradient(to right top, rgb(105, 105, 255),rgb(99, 255, 99),rgb(255, 255, 86),rgb(255, 96, 96),rgb(206, 112, 128),rgb(213, 34, 213));
+}
+
+.Text::-webkit-scrollbar{
+    display: none;
+}

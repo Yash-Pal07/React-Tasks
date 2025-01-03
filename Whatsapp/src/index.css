@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left,white,rgb(223, 180, 180),rgb(116, 221, 216),rgb(173, 173, 237));
+}
+.Text::-webkit-scrollbar{
+display: none;
+}
